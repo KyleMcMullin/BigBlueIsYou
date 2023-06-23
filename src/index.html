@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang = "en-US">
+<head>
+    <meta charset = "UTF-8">
+    <title>Big Blue is You</title>
+    
+    <link rel = "stylesheet" type = "text/css" href = "styles/game.css">
+</head>
+<body>
+    <div id = "game">
+        <div id = "main-menu" class = "screen">
+            <h1>Big Blue is You!</h1>
+            <ul class = "menu">
+                <li><button id = "id-new-game">New&nbsp;Game</button></li>
+                <li><button id = "id-controls">Controls&nbsp;</button></li>
+                <li><button id = "id-credits">Credits</button></li>
+            </ul>
+        </div>
+        <div id = "level-menu" class = "screen">
+            <h1>Select Level</h1>
+            <ul class = "menu" id="level-menu-ul">
+                <li><button id = "id-level-back">Main&nbsp;Menu</button></li>
+            </ul>
+        </div>
+        <div id = "game-play" class = "screen">
+            <canvas id = "id-canvas" width = "1000" height = "1000"></canvas>
+        </div>
+        <div id = "controls" class = "screen">
+            <h1>Controls</h1>
+            <div id="controls-editor">
+                <h3 id="control-being-edited">Click key to change control!</h3>
+                <div class="single-control-input">
+                    <button id="id-controls-up" class="input-button-remap">Up</button>
+                    <h3 id="up"></h3>
+                </div>
+                <div class="single-control-input">
+                    <button id="id-controls-down" class="input-button-remap">Down</button>
+                    <h3 id="down"></h3>
+                </div>
+                <div class="single-control-input">
+                    <button id="id-controls-left" class="input-button-remap">Left</button>
+                    <h3 id="left"></h3>
+                </div>
+                <div class="single-control-input">
+                    <button id="id-controls-right" class="input-button-remap">Right</button>
+                    <h3 id="right"></h3>
+                </div>
+                <div class="single-control-input">
+                    <button id="id-controls-reset" class="input-button-remap">Reset</button>
+                    <h3 id="reset"></h3>
+                </div>
+                <div class="single-control-input">
+                    <button id="id-controls-undo" class="input-button-remap">Undo</button>
+                    <h3 id="undo"></h3>
+                </div>
+            </div>
+            <ol id="controls-list">
+            </ol>
+            <ul class = "menu">
+                <li><button id="id-controls-default">Reset to Default</button></li>
+                <li><button id = "id-controls-back">Back</button></li>
+            </ul>
+        </div>
+        <div id = "credits" class = "screen">
+            <h1>Credits</h1>
+            <h3>Developed by</h3>
+            <p>Brock Sponenburgh, Jason Jackson, Kyle McMullin</p>
+            <h3>Music & Sound:</h3>
+            <p>"Timeless Love Songs" by Relaxing_Ambiance on pixabay</p>
+            <p>Sound effects from Zapsplat.com</p>
+            <ul class = "menu">
+                <li><button id = "id-credits-back">Back</button></li>
+            </ul>
+        </div>
+        <div id="pause-menu" class="screen">
+            <h1>Paused</h1>
+            <ul class = "menu">
+                <li><button id="pause-resume">Resume</button></li>
+                <li><button id="pause-levels">Level Menu</button></li>
+                <li><button id="pause-main-menu">Main Menu</button></li>
+            </ul>
+    </div>
+
+    <script data-main = "scripts/loader" src = "scripts/require.js"></script>
+    <!-- <script src="scripts/MyGame.js"></script>
+    <script src = "scripts/input-keyboard.js"></script>
+    <script src = "scripts/utils/random.js"></script>
+    <script src="scripts/render/Core.js"></script>
+    <script src= "scripts/render/ParticleSystem.js"></script>
+    <script src= "scripts/systems/ParticleSystem.js"></script>
+    <script src = "scripts/game.js"></script>
+    <script src = "scripts/Pause.js"></script>
+    <script src = "scripts/mainmenu.js"></script>
+    <script src = "scripts/gameplay.js"></script> 
+    <script src = "scripts/Controls.js"></script>
+    <script src = "scripts/credits.js"></script> -->
+
+</body>
+</html>
