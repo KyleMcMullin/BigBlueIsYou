@@ -1,8 +1,10 @@
-CS 5410 (Game Development) Final Project
+# Big Blue is You
 
-A remake of Baba is You in JavaScript!
+A remake of Baba is You in JavaScript! This project was built built as the final project for CS5410 - Game Development. 
 
-# Play Instructions
+A demo video can be found here: 
+
+## Play Instructions
 
 Clone or download the files to your computer
 
