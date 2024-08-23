@@ -2,7 +2,7 @@
 
 A remake of Baba is You in JavaScript! This project was built built as the final project for CS5410 - Game Development. 
 
-A demo video can be found here: 
+A demo video can be found here: https://youtu.be/bZ2HnEpEKrg
 
 ## Play Instructions
 
